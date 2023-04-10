@@ -1,9 +1,5 @@
-.container {
-  margin: 20px;
-}
-.section__container {
+.block {
   padding: 10px;
   background-color: var(--black-200);
   border-radius: var(--border-12);
-  margin-bottom: 20px;
 }

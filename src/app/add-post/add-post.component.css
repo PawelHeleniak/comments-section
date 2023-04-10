@@ -1,0 +1,25 @@
+.form__title h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.form__input {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.form__input input {
+  width: 100%;
+  border: none;
+  border-radius: var(--border-12);
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.form_btn {
+  display: flex;
+  width: 100%;
+}
+
+.form_btn button {
+  font-size: 1rem;
+  padding: 5px;
+}

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* color */
+  --black-300: hsl(0, 0%, 10%);
+  --black-200: hsl(240, 4%, 14%);
+  --black-100: hsl(240, 4%, 20%);
+
+  --white-100: hsl(0, 0%, 100%);
+  --white-200: hsl(0, 0%, 90%);
+  /* border */
+  --border-12: 12px;
+}
+
+body {
+  background-color: var(--black-300);
+  color: var(--white-200);
+  font-size: 18px;
+}
