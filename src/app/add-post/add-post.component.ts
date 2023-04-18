@@ -7,10 +7,9 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./add-post.component.css'],
 })
 export class AddPostComponent {
-  @Output() newItemEvent = new EventEmitter<string>();
+  @Output() newItemEvent = new EventEmitter<Object>();
 
   submit(form: NgForm) {
     this.newItemEvent.emit(form.value);
-    console.log(form.value);
   }
 }

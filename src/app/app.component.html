@@ -1,8 +1,8 @@
 <div class="container">
   <section class="section__container">
-    <app-add-post (newItemEvent)="addItem($event)"></app-add-post>
+    <app-add-post (newItemEvent)="addPost($event)"></app-add-post>
   </section>
   <section class="section__container">
-    <app-post [item]="items"></app-post>
+    <app-post [items]="posts"></app-post>
   </section>
 </div>
